@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+main {
+  background-color: #e0f1e8;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  margin: 32px 0;
+  width: 343px;
+  height: 1074px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 32px;
+}
+
+label {
+  color: #2a4144;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+div.column {
+  display: flex;
+  flex-direction: column;
+}
+
+#userName,
+#lastname,
+#email,
+div.first_one,
+div.second_one {
+  width: 295px;
+  height: 51px;
+  border-radius: 8px;
+  border: 1px solid #86a2a5;
+  outline: none;
+}
+
+#first_answer,
+#second_answer {
+  width: 19.5px;
+  height: 19.5px;
+  /* accent-color: #c2d0d1; */
+}
+
+div.first_one,
+div.second_one {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 12px;
+}
+#style {
+  font-size: 18px;
+}
+
+div.first_one {
+  margin: 16px 0;
+}
+
+div.second_one {
+  margin-bottom: 24px;
+}
+
+#text {
+  width: 295px;
+  height: 240px;
+  border-radius: 8px;
+  border: 1px solid #86a2a5;
+  margin-bottom: 40px;
+  outline: none;
+}
+
+#userName,
+#lastname,
+#email {
+  margin-bottom: 24px;
+}
+
+#margin {
+  margin-bottom: 8px;
+}
+
+div.terms {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+#terms {
+  width: 18px;
+  height: 18px;
+  /* accent-color: #86a2a5; */
+}
