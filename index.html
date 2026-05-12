@@ -48,14 +48,16 @@
         </div>
         <div class="message column">
           <label for="text" id="margin">Message *</label>
-          <input type="text" id="text" />
+          <textarea name="text" id="text"></textarea>
         </div>
         <div class="terms">
           <input type="checkbox" name="terms" id="terms" />
-          <label for="terms">I consent to being contacted by the team *</label>
+          <label for="terms" id="term"
+            >I consent to being contacted by the team *</label
+          >
         </div>
-        <button class="submit">Submit</button>
         <span id="error_message"></span>
+        <button class="submit">Submit</button>
       </form>
     </main>
   </body>

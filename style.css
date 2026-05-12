@@ -24,6 +24,10 @@ form {
 
 h1 {
   margin-bottom: 32px;
+  font-size: 32px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: #2a4144;
 }
 
 label {
@@ -82,12 +86,18 @@ div.second_one {
   border: 1px solid #86a2a5;
   margin-bottom: 40px;
   outline: none;
+  resize: none;
+  padding-left: 24px;
+  padding-top: 12px;
+  font-size: 16px;
 }
 
 #userName,
 #lastname,
 #email {
   margin-bottom: 24px;
+  padding-left: 24px;
+  font-size: 16px;
 }
 
 #margin {
@@ -98,10 +108,33 @@ div.terms {
   display: flex;
   gap: 16px;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 #terms {
   width: 18px;
   height: 18px;
   /* accent-color: #86a2a5; */
+}
+
+button.submit {
+  width: 295px;
+  height: 59px;
+  border-radius: 8px;
+  background-color: #0c7d69;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+
+#error_message {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: red;
+  font-weight: 700;
+}
+
+#term {
+  width: 232px;
 }
