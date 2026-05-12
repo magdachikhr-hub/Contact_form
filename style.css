@@ -172,3 +172,29 @@ button.submit {
     width: 610px;
   }
 }
+
+@media (min-width: 1440px) {
+  form {
+    margin: 128px 352px;
+    width: 736px;
+    height: 773px;
+  }
+
+  #userName,
+  #lastname,
+  #email,
+  div.first_one,
+  div.second_one {
+    width: 320px;
+  }
+  #email {
+    width: 656px;
+  }
+  #text {
+    width: 656px;
+    height: 105px;
+  }
+  button.submit {
+    width: 656px;
+  }
+}
