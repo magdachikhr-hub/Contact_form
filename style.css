@@ -53,11 +53,24 @@ div.second_one {
   outline: none;
 }
 
+#userName:focus,
+#lastname:focus,
+#email:focus,
+#text:focus {
+  border: 1.3px solid #0c7d69;
+}
+
 #first_answer,
 #second_answer {
   width: 19.5px;
   height: 19.5px;
-  /* accent-color: #c2d0d1; */
+  accent-color: #0c7d69;
+}
+
+div.first_one:has(input:checked),
+div.second_one:has(input:checked) {
+  background-color: #e0f1e8;
+  border: 1.3px solid #0c7d69;
 }
 
 div.first_one,
@@ -114,7 +127,7 @@ div.terms {
 #terms {
   width: 18px;
   height: 18px;
-  /* accent-color: #86a2a5; */
+  accent-color: #0c7d69;
 }
 
 button.submit {
@@ -126,6 +139,11 @@ button.submit {
   font-weight: 700;
   font-size: 18px;
   border: none;
+}
+
+button.submit:hover {
+  background-color: #063e34;
+  cursor: pointer;
 }
 
 #error_message {
