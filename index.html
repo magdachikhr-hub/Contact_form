@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <form class="contact_form">
+        <h1>Contact Us</h1>
+        <div class="name_last">
+          <div class="name">
+            <label for="userName">First Name *</label>
+            <input type="text" id="userName" />
+          </div>
+          <div class="lastname">
+            <label for="lastname">Last Name *</label>
+            <input type="text" id="lastname" />
+          </div>
+        </div>
+        <div class="email">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" />
+        </div>
+        <div class="query_type">
+          <label for="question_name">Query Type *</label>
+          <div class="first_one">
+            <input type="radio" id="first_answer" name="query" value="first" />
+            <label for="first_answer">General Enquiry</label>
+          </div>
+          <div class="second_one">
+            <input
+              type="radio"
+              id="second_answer"
+              name="query"
+              value="second"
+            />
+            <label for="second_answer">Support Request</label>
+          </div>
+        </div>
+        <div class="message">
+          <label for="text">Message *</label>
+          <input type="text" id="text" />
+        </div>
+        <div class="terms">
+          <input type="checkbox" name="terms" id="terms" />
+          <label for="terms">I consent to being contacted by the team *</label>
+        </div>
+        <button class="submit">Submit</button>
+        <span id="error_message"></span>
+      </form>
+    </main>
+  </body>
+</html>
