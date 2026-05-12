@@ -138,3 +138,37 @@ button.submit {
 #term {
   width: 232px;
 }
+
+@media (min-width: 768px) {
+  form {
+    margin: 128px 39px;
+    width: 690px;
+    height: 800px;
+    padding: 40px;
+  }
+  div.name_last {
+    display: flex;
+    gap: 16px;
+  }
+  #email {
+    width: 610px;
+  }
+  div.query_type {
+    display: flex;
+    gap: 16px;
+  }
+
+  div.second_one {
+    margin: 16px 0;
+  }
+  #text {
+    width: 610px;
+    height: 132px;
+  }
+  #term {
+    width: 310px;
+  }
+  button.submit {
+    width: 610px;
+  }
+}
