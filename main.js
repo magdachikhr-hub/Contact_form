@@ -18,13 +18,12 @@ form.addEventListener("submit", (event) => {
   const message = messageInput.value.trim();
   const terms = termsInput.checked;
 
-  userNameInput.classList.remove("error_input");
-  lastnameInput.classList.remove("error_input");
-  emailInput.classList.remove("error_input");
-  // query.classList.remove("error_input");
+  clearError(userNameInput);
+  clearError(lastnameInput);
+  clearError(emailInput);
+  clearError(messageInput);
+
   // query ? query.classList.remove("error_input") :
-  messageInput.classList.remove("error_input");
-  // termsInput.classList.remove("error_input");
 
   if (userName.length < 2 || userName.length > 15) {
     errorInput(userNameInput);
@@ -69,4 +68,8 @@ function errorHandler(errorText) {
 
 function errorInput(input) {
   input.classList.add("error_input");
+}
+
+function clearError(input) {
+  input.classList.remove("error_input");
 }
