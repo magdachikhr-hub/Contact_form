@@ -216,3 +216,7 @@ button.submit:hover {
     width: 656px;
   }
 }
+
+.error_input {
+  border: 1px solid red !important;
+}
